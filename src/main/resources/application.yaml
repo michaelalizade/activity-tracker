@@ -1,3 +1,7 @@
 spring:
   application:
     name: activity-tracker
+  datasource:
+    url: jdbc:postgresql://localhost:5432/activity_tracker
+    username: postgres
+    password: postgres
